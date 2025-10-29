@@ -300,7 +300,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -316,6 +318,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#graphing">Graphing!</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -327,6 +337,24 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="lecture-16-example">
 <h1>Lecture 16 Example<a class="headerlink" href="#lecture-16-example" title="Link to this heading">#</a></h1>
+<p>Let’s do some addition:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Let’s do some more <strong>addition</strong>:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="mi">5</span> <span class="o">+</span> <span class="mi">6</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="graphing">
+<h2>Graphing!<a class="headerlink" href="#graphing" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">plotly.express</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">px</span>
@@ -340,6 +368,7 @@ document.write(`
 <div class="cell_output docutils container">
 </div>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -387,6 +416,21 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#graphing">Graphing!</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
